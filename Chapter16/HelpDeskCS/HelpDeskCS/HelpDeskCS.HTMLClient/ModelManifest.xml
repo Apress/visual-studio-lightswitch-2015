@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\Client.lsml" Checksum="3BADCD741F69F8244ABE29E9621509482BE16CEA96D4109D8A0956B2C794C8E9" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\Proxies.lsml" Checksum="B8B4A3CEF0712D8DFF0095B7D59C4801A1BA6C9532D4DF62A41770541C2473E1" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Startup.lsml" Checksum="6F7CEA106B25E329B203D8A7E0AD4D38399ECAB49ADA753116113DEF153D1E9C" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\ApplicationData\Issues.lsml" Checksum="6128A330640E9BE75713A3037EAD0D8590B52CF470E98E6AE008E132DAF7A221" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\ApplicationData\Engineers.lsml" Checksum="CE0D110E322E773793AE799CA88484C3B638DB4FC5B068B39A165BDAE003CDDF" />
+  </Documents>
+</ModelDocumentManifest>

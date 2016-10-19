@@ -1,0 +1,2526 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HelpDeskVB.DesktopClient
+</name>
+</assembly>
+<members>
+<member name="T:LightSwitchApplication.Engineer">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Engineer.#ctor">
+ <summary>
+ Initializes a new instance of the Engineer entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Surname">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Firstname">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.DateOfBirth">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.LoginName">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.SSN">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.EngineerPhoto">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.SecurityVetted">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.ClearanceReference">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.VettingExpiryDate">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.EmailAddress">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.UserProfile">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Fullname">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.IssueCount">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Age">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Issues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.EngineerIssues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Manager">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.Subordinates">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Engineer.EngineerSkills">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.Issue">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Issue.#ctor">
+ <summary>
+ Initializes a new instance of the Issue entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.TargetEndDateTime">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Subject">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.CreateDateTime">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.ProblemDescription">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.ClosedDateTime">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Icon">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.AssignedEngineer">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.ClosedByEngineer">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.Priority">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.IssueStatus">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.IssueResponses">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Issue.IssueDocuments">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerDetail.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerDetail.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerDetail.Subordinates">
+ <summary>
+ Gets the Subordinates visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Startup.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Startup.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableDepartmentsGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableDepartmentsGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableDepartmentsGrid.Departments">
+ <summary>
+ Gets the Departments visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineerPhoneticSearchGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineerPhoneticSearchGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineerPhoneticSearchGrid.EngineerPhoneticSearch">
+ <summary>
+ Gets the EngineerPhoneticSearch visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithIssuesGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithIssuesGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithIssuesGrid.EngineersWithIssues">
+ <summary>
+ Gets the EngineersWithIssues visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithNoIssuesGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithNoIssuesGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithNoIssuesGrid.EngineersWithNoIssues">
+ <summary>
+ Gets the EngineersWithNoIssues visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithOutstandingIssuesGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithOutstandingIssuesGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableEngineersWithOutstandingIssuesGrid.EngineersWithOutstandingIssues">
+ <summary>
+ Gets the EngineersWithOutstandingIssues visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesByMonthAndYearGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesByMonthAndYearGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesByMonthAndYearGrid.IssuesByMonthAndYear">
+ <summary>
+ Gets the IssuesByMonthAndYear visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesMatchAllGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesMatchAllGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesMatchAllGrid.IssuesMatchAll">
+ <summary>
+ Gets the IssuesMatchAll visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesMatchSomeGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesMatchSomeGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssuesMatchSomeGrid.IssuesMatchSome">
+ <summary>
+ Gets the IssuesMatchSome visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssueStatusSetGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssueStatusSetGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditableIssueStatusSetGrid.IssueStatusSet">
+ <summary>
+ Gets the IssueStatusSet visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditablePrioritiesGrid.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditablePrioritiesGrid.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EditablePrioritiesGrid.Priorities">
+ <summary>
+ Gets the Priorities visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineersListDetail.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineersListDetail.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineersListDetail.Engineers">
+ <summary>
+ Gets the Engineers visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssuesListDetail.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssuesListDetail.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssuesListDetail.Issues">
+ <summary>
+ Gets the Issues visual collection. The collection contains all records currently shown on the respective list or grid control.
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.Permissions">
+ <summary>
+ Defines the names of the application permissions.
+ </summary>
+</member>
+<member name="F:LightSwitchApplication.Permissions.SecurityAdministration">
+ <summary>
+ Provides the ability to manage security for the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Permissions.AllPermissions">
+ <summary>
+ Gets all permissions defined for the application.  This includes system and user-defined permissions.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableDepartmentsGrid">
+ <summary>
+ Opens the ShowEditableDepartmentsGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableEngineerPhoneticSearchGrid">
+ <summary>
+ Opens the ShowEditableEngineerPhoneticSearchGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableEngineersWithIssuesGrid">
+ <summary>
+ Opens the ShowEditableEngineersWithIssuesGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableEngineersWithNoIssuesGrid">
+ <summary>
+ Opens the ShowEditableEngineersWithNoIssuesGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableEngineersWithOutstandingIssuesGrid">
+ <summary>
+ Opens the ShowEditableEngineersWithOutstandingIssuesGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableIssuesByMonthAndYearGrid">
+ <summary>
+ Opens the ShowEditableIssuesByMonthAndYearGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableIssuesMatchAllGrid">
+ <summary>
+ Opens the ShowEditableIssuesMatchAllGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableIssuesMatchSomeGrid">
+ <summary>
+ Opens the ShowEditableIssuesMatchSomeGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditableIssueStatusSetGrid">
+ <summary>
+ Opens the ShowEditableIssueStatusSetGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEditablePrioritiesGrid">
+ <summary>
+ Opens the ShowEditablePrioritiesGrid screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEngineerDetail(System.Int32)">
+ <summary>
+ Opens the ShowEngineerDetail screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowEngineersListDetail">
+ <summary>
+ Opens the ShowEngineersListDetail screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowIssuesListDetail">
+ <summary>
+ Opens the ShowIssuesListDetail screen.  If the screen is already opened, it is activated and shown.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Application.ShowStartup">
+ <summary>
+ Opens a new instance of the ShowStartup screen.
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.Department">
+<summary>
+There are no comments for LightSwitchApplication.Department in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.Department.CreateDepartment(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Double,System.Byte[])">
+<summary>
+Create a new Department object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="departmentName">Initial value of DepartmentName.</param>
+<param name="address1">Initial value of Address1.</param>
+<param name="address2">Initial value of Address2.</param>
+<param name="city">Initial value of City.</param>
+<param name="postcode">Initial value of Postcode.</param>
+<param name="country">Initial value of Country.</param>
+<param name="departmentManager">Initial value of DepartmentManager.</param>
+<param name="floorArea">Initial value of FloorArea.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.DepartmentName">
+<summary>
+There are no comments for Property DepartmentName in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Address1">
+<summary>
+There are no comments for Property Address1 in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Address2">
+<summary>
+There are no comments for Property Address2 in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.City">
+<summary>
+There are no comments for Property City in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Postcode">
+<summary>
+There are no comments for Property Postcode in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Country">
+<summary>
+There are no comments for Property Country in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.DepartmentManager">
+<summary>
+There are no comments for Property DepartmentManager in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.FloorArea">
+<summary>
+There are no comments for Property FloorArea in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Department.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.Engineer">
+<summary>
+There are no comments for LightSwitchApplication.Engineer in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.Engineer.CreateEngineer(System.Int32,System.String,System.String,System.DateTime,System.Boolean,System.Byte[])">
+<summary>
+Create a new Engineer object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="surname">Initial value of Surname.</param>
+<param name="firstname">Initial value of Firstname.</param>
+<param name="dateOfBirth">Initial value of DateOfBirth.</param>
+<param name="securityVetted">Initial value of SecurityVetted.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Surname">
+<summary>
+There are no comments for Property Surname in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Firstname">
+<summary>
+There are no comments for Property Firstname in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.DateOfBirth">
+<summary>
+There are no comments for Property DateOfBirth in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.LoginName">
+<summary>
+There are no comments for Property LoginName in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.SSN">
+<summary>
+There are no comments for Property SSN in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.EngineerPhoto">
+<summary>
+There are no comments for Property EngineerPhoto in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.SecurityVetted">
+<summary>
+There are no comments for Property SecurityVetted in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.ClearanceReference">
+<summary>
+There are no comments for Property ClearanceReference in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.VettingExpiryDate">
+<summary>
+There are no comments for Property VettingExpiryDate in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.EmailAddress">
+<summary>
+There are no comments for Property EmailAddress in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.UserProfile">
+<summary>
+There are no comments for Property UserProfile in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Engineer_Engineer">
+<summary>
+There are no comments for Property Engineer_Engineer in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Issues">
+<summary>
+There are no comments for Issues in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.EngineerIssues">
+<summary>
+There are no comments for EngineerIssues in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Manager">
+<summary>
+There are no comments for Manager in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.Subordinates">
+<summary>
+There are no comments for Subordinates in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Engineer.EngineerSkills">
+<summary>
+There are no comments for EngineerSkills in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.EngineerSkill">
+<summary>
+There are no comments for LightSwitchApplication.EngineerSkill in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.EngineerSkill.CreateEngineerSkill(System.Int32,System.Int32,System.Int32,System.Byte[])">
+<summary>
+Create a new EngineerSkill object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="engineerSkill_Engineer">Initial value of EngineerSkill_Engineer.</param>
+<param name="engineerSkill_Skill">Initial value of EngineerSkill_Skill.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.EngineerSkill_Engineer">
+<summary>
+There are no comments for Property EngineerSkill_Engineer in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.EngineerSkill_Skill">
+<summary>
+There are no comments for Property EngineerSkill_Skill in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.Engineer">
+<summary>
+There are no comments for Engineer in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.EngineerSkill.Skill">
+<summary>
+There are no comments for Skill in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.IssueDocument">
+<summary>
+There are no comments for LightSwitchApplication.IssueDocument in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.IssueDocument.CreateIssueDocument(System.Int32,System.String,System.String,System.Int32,System.Byte[])">
+<summary>
+Create a new IssueDocument object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="documentName">Initial value of DocumentName.</param>
+<param name="fileExtension">Initial value of FileExtension.</param>
+<param name="issue_IssueDocument">Initial value of Issue_IssueDocument.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.DocumentName">
+<summary>
+There are no comments for Property DocumentName in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.FileExtension">
+<summary>
+There are no comments for Property FileExtension in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.IssueFile">
+<summary>
+There are no comments for Property IssueFile in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.Issue_IssueDocument">
+<summary>
+There are no comments for Property Issue_IssueDocument in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueDocument.Issue">
+<summary>
+There are no comments for Issue in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.IssueResponse">
+<summary>
+There are no comments for LightSwitchApplication.IssueResponse in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.IssueResponse.CreateIssueResponse(System.Int32,System.DateTime,System.String,System.Boolean,System.Int32,System.Byte[])">
+<summary>
+Create a new IssueResponse object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="responseDateTime">Initial value of ResponseDateTime.</param>
+<param name="responseText">Initial value of ResponseText.</param>
+<param name="awaitingClient">Initial value of AwaitingClient.</param>
+<param name="issue_IssueResponse">Initial value of Issue_IssueResponse.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.ResponseDateTime">
+<summary>
+There are no comments for Property ResponseDateTime in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.ResponseText">
+<summary>
+There are no comments for Property ResponseText in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.ReviewDate">
+<summary>
+There are no comments for Property ReviewDate in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.AwaitingClient">
+<summary>
+There are no comments for Property AwaitingClient in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.Issue_IssueResponse">
+<summary>
+There are no comments for Property Issue_IssueResponse in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueResponse.Issue">
+<summary>
+There are no comments for Issue in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.Issue">
+<summary>
+There are no comments for LightSwitchApplication.Issue in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.Issue.CreateIssue(System.Int32,System.DateTime,System.String,System.DateTime,System.String,System.Int32,System.Byte[])">
+<summary>
+Create a new Issue object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="targetEndDateTime">Initial value of TargetEndDateTime.</param>
+<param name="subject">Initial value of Subject.</param>
+<param name="createDateTime">Initial value of CreateDateTime.</param>
+<param name="problemDescription">Initial value of ProblemDescription.</param>
+<param name="issue_Engineer">Initial value of Issue_Engineer.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.TargetEndDateTime">
+<summary>
+There are no comments for Property TargetEndDateTime in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Subject">
+<summary>
+There are no comments for Property Subject in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.CreateDateTime">
+<summary>
+There are no comments for Property CreateDateTime in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.ProblemDescription">
+<summary>
+There are no comments for Property ProblemDescription in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Issue_Engineer">
+<summary>
+There are no comments for Property Issue_Engineer in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Issue_Engineer1">
+<summary>
+There are no comments for Property Issue_Engineer1 in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Issue_Priority">
+<summary>
+There are no comments for Property Issue_Priority in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Issue_IssueStatus">
+<summary>
+There are no comments for Property Issue_IssueStatus in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.ClosedDateTime">
+<summary>
+There are no comments for Property ClosedDateTime in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.AssignedEngineer">
+<summary>
+There are no comments for AssignedEngineer in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.ClosedByEngineer">
+<summary>
+There are no comments for ClosedByEngineer in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.Priority">
+<summary>
+There are no comments for Priority in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.IssueStatus">
+<summary>
+There are no comments for IssueStatus in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.IssueResponses">
+<summary>
+There are no comments for IssueResponses in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Issue.IssueDocuments">
+<summary>
+There are no comments for IssueDocuments in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.IssueStatus">
+<summary>
+There are no comments for LightSwitchApplication.IssueStatus in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.IssueStatus.CreateIssueStatus(System.Int32,System.String,System.Byte[])">
+<summary>
+Create a new IssueStatus object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="statusDescription">Initial value of StatusDescription.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.StatusDescription">
+<summary>
+There are no comments for Property StatusDescription in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.IssueStatus.Issues">
+<summary>
+There are no comments for Issues in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.Priority">
+<summary>
+There are no comments for LightSwitchApplication.Priority in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.Priority.CreatePriority(System.Int32,System.String,System.Byte[])">
+<summary>
+Create a new Priority object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="priorityDesc">Initial value of PriorityDesc.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.PriorityDesc">
+<summary>
+There are no comments for Property PriorityDesc in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Priority.Issues">
+<summary>
+There are no comments for Issues in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.Skill">
+<summary>
+There are no comments for LightSwitchApplication.Skill in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.Skill.CreateSkill(System.Int32,System.String,System.Byte[])">
+<summary>
+Create a new Skill object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="skillDescription">Initial value of SkillDescription.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.SkillDescription">
+<summary>
+There are no comments for Property SkillDescription in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Skill.EngineerSkills">
+<summary>
+There are no comments for EngineerSkills in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.Timesheet">
+<summary>
+There are no comments for LightSwitchApplication.Timesheet in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.Timesheet.CreateTimesheet(System.Int32,System.Int32,System.Byte[])">
+<summary>
+Create a new Timesheet object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="durationMins">Initial value of DurationMins.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.DurationMins">
+<summary>
+There are no comments for Property DurationMins in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.Timesheet.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.User">
+<summary>
+There are no comments for LightSwitchApplication.User in the schema.
+</summary>
+<KeyProperties>
+Id
+</KeyProperties>
+</member>
+<member name="M:LightSwitchApplication.Implementation.User.CreateUser(System.Int32,System.String,System.String,System.String,System.Byte[])">
+<summary>
+Create a new User object.
+</summary>
+<param name="ID">Initial value of Id.</param>
+<param name="firstname">Initial value of Firstname.</param>
+<param name="surname">Initial value of Surname.</param>
+<param name="phoneNumber">Initial value of PhoneNumber.</param>
+<param name="rowVersion">Initial value of RowVersion.</param>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Id">
+<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Firstname">
+<summary>
+There are no comments for Property Firstname in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Surname">
+<summary>
+There are no comments for Property Surname in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.PhoneNumber">
+<summary>
+There are no comments for Property PhoneNumber in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Username">
+<summary>
+There are no comments for Property Username in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Password">
+<summary>
+There are no comments for Property Password in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Address1">
+<summary>
+There are no comments for Property Address1 in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Address2">
+<summary>
+There are no comments for Property Address2 in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.City">
+<summary>
+There are no comments for Property City in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Postcode">
+<summary>
+There are no comments for Property Postcode in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Country">
+<summary>
+There are no comments for Property Country in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Email">
+<summary>
+There are no comments for Property Email in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.CreatedBy">
+<summary>
+There are no comments for Property CreatedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Created">
+<summary>
+There are no comments for Property Created in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.ModifiedBy">
+<summary>
+There are no comments for Property ModifiedBy in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.Modified">
+<summary>
+There are no comments for Property Modified in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.User.RowVersion">
+<summary>
+There are no comments for Property RowVersion in the schema.
+</summary>
+</member>
+<member name="T:LightSwitchApplication.Implementation.ApplicationData">
+<summary>
+There are no comments for ApplicationData in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.#ctor(System.Uri)">
+<summary>
+Initialize a new ApplicationData object.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.ResolveTypeFromName(System.String)">
+<summary>
+Since the namespace configured for this service reference
+in Visual Studio is different from the one indicated in the
+server schema, use type-mappers to map between the two.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.ResolveNameFromType(System.Type)">
+<summary>
+Since the namespace configured for this service reference
+in Visual Studio is different from the one indicated in the
+server schema, use type-mappers to map between the two.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Departments">
+<summary>
+There are no comments for Departments in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Engineers">
+<summary>
+There are no comments for Engineers in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.EngineerSkills">
+<summary>
+There are no comments for EngineerSkills in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.IssueDocuments">
+<summary>
+There are no comments for IssueDocuments in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.IssueResponses">
+<summary>
+There are no comments for IssueResponses in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Issues">
+<summary>
+There are no comments for Issues in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.IssueStatusSet">
+<summary>
+There are no comments for IssueStatusSet in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Priorities">
+<summary>
+There are no comments for Priorities in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Skills">
+<summary>
+There are no comments for Skills in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Timesheets">
+<summary>
+There are no comments for Timesheets in the schema.
+</summary>
+</member>
+<member name="P:LightSwitchApplication.Implementation.ApplicationData.Users">
+<summary>
+There are no comments for Users in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToDepartments(LightSwitchApplication.Implementation.Department)">
+<summary>
+There are no comments for Departments in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToEngineers(LightSwitchApplication.Implementation.Engineer)">
+<summary>
+There are no comments for Engineers in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToEngineerSkills(LightSwitchApplication.Implementation.EngineerSkill)">
+<summary>
+There are no comments for EngineerSkills in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToIssueDocuments(LightSwitchApplication.Implementation.IssueDocument)">
+<summary>
+There are no comments for IssueDocuments in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToIssueResponses(LightSwitchApplication.Implementation.IssueResponse)">
+<summary>
+There are no comments for IssueResponses in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToIssues(LightSwitchApplication.Implementation.Issue)">
+<summary>
+There are no comments for Issues in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToIssueStatusSet(LightSwitchApplication.Implementation.IssueStatus)">
+<summary>
+There are no comments for IssueStatusSet in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToPriorities(LightSwitchApplication.Implementation.Priority)">
+<summary>
+There are no comments for Priorities in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToSkills(LightSwitchApplication.Implementation.Skill)">
+<summary>
+There are no comments for Skills in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToTimesheets(LightSwitchApplication.Implementation.Timesheet)">
+<summary>
+There are no comments for Timesheets in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToUsers(LightSwitchApplication.Implementation.User)">
+<summary>
+There are no comments for Users in the schema.
+</summary>
+</member>
+<member name="M:LightSwitchApplication.DataWorkspace.#ctor">
+ <summary>
+ Initializes a new instance of a DataWorkspace.  Changes can be made to data sources in the new instance independent of changes made to data sources in the default DataWorkspace.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.DataWorkspace.ApplicationData">
+ <summary>
+ Gets the ApplicationData datasource.  This provides members to query and update data in the data source.
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.ApplicationData">
+ <summary>
+ Provides members to query and update data in the ApplicationData datasource.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.#ctor">
+ <summary>
+ This constructor is used for the internal LightSwitch framework. Use DataWorkspace instead.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Departments">
+ <summary>
+ Gets the Departments entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Engineers">
+ <summary>
+ Gets the Engineers entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.EngineerSkills">
+ <summary>
+ Gets the EngineerSkills entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.IssueDocuments">
+ <summary>
+ Gets the IssueDocuments entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.IssueResponses">
+ <summary>
+ Gets the IssueResponses entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Issues">
+ <summary>
+ Gets the Issues entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.IssueStatusSet">
+ <summary>
+ Gets the IssueStatusSet entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Priorities">
+ <summary>
+ Gets the Priorities entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Skills">
+ <summary>
+ Gets the Skills entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Timesheets">
+ <summary>
+ Gets the Timesheets entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.ApplicationData.Users">
+ <summary>
+ Gets the Users entity set.  The entity set provides members to access entities of a specific type.
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Departments_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Departments_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Engineers_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Engineers_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.EngineerPhoneticSearch(System.String)">
+ <summary>
+ No Modeled Description Available
+ </summary>
+ <param name="Name">
+ No Modeled Description Available
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.EngineersWithIssues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.EngineersWithNoIssues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.EngineersWithOutstandingIssues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.EngineerSkills_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.EngineerSkills_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssueDocuments_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssueDocuments_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssueResponses_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssueResponses_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Issues_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Issues_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssuesByMonthAndYear(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+ <summary>
+ No Modeled Description Available
+ </summary>
+ <param name="IssueMonth">
+ No Modeled Description Available
+ </param>
+ <param name="IssueYear">
+ No Modeled Description Available
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssuesMatchAll(System.String)">
+ <summary>
+ No Modeled Description Available
+ </summary>
+ <param name="criteria">
+ No Modeled Description Available
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssuesMatchSome(System.String)">
+ <summary>
+ No Modeled Description Available
+ </summary>
+ <param name="criteria">
+ No Modeled Description Available
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssueStatusSet_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssueStatusSet_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Priorities_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Priorities_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Skills_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Skills_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Timesheets_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Timesheets_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Users_Single(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.Users_SingleOrDefault(System.Nullable{System.Int32})">
+ <summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+ <param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member>
+<member name="M:LightSwitchApplication.ApplicationData.IssuesSearch(System.String)">
+ <summary>
+ No Modeled Description Available
+ </summary>
+ <param name="ProblemDescription">
+ No Modeled Description Available
+ </param>
+</member>
+<member name="T:LightSwitchApplication.Department">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Department.#ctor">
+ <summary>
+ Initializes a new instance of the Department entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.DepartmentName">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Address1">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Address2">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.City">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Postcode">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Country">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.DepartmentManager">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.FloorArea">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Department.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.EngineerSkill">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.EngineerSkill.#ctor">
+ <summary>
+ Initializes a new instance of the EngineerSkill entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.Engineer">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.EngineerSkill.Skill">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.IssueDocument">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.IssueDocument.#ctor">
+ <summary>
+ Initializes a new instance of the IssueDocument entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.DocumentName">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.FileExtension">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.IssueFile">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueDocument.Issue">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.IssueResponse">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.IssueResponse.#ctor">
+ <summary>
+ Initializes a new instance of the IssueResponse entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.ResponseDateTime">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.ResponseText">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.ReviewDate">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.AwaitingClient">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueResponse.Issue">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.IssueStatus">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.IssueStatus.#ctor">
+ <summary>
+ Initializes a new instance of the IssueStatus entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.StatusDescription">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.IssueStatus.Issues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.Priority">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Priority.#ctor">
+ <summary>
+ Initializes a new instance of the Priority entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.PriorityDesc">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Priority.Issues">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.Skill">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Skill.#ctor">
+ <summary>
+ Initializes a new instance of the Skill entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.SkillDescription">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Skill.EngineerSkills">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.Timesheet">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.Timesheet.#ctor">
+ <summary>
+ Initializes a new instance of the Timesheet entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.DurationMins">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.Timesheet.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="T:LightSwitchApplication.User">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="M:LightSwitchApplication.User.#ctor">
+ <summary>
+ Initializes a new instance of the User entity.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Application">
+ <summary>
+ Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.DataWorkspace">
+ <summary>
+ Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Id">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Firstname">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Surname">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.PhoneNumber">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Username">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Password">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Address1">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Address2">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.City">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Postcode">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Country">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Email">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.CreatedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Created">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.ModifiedBy">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.Modified">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+<member name="P:LightSwitchApplication.User.RowVersion">
+ <summary>
+ No Modeled Description Available
+ </summary>
+</member>
+</members>
+</doc>

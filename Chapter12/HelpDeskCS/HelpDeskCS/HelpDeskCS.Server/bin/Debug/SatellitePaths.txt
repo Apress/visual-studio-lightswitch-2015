@@ -1,0 +1,16 @@
+C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\_Pvt_Extensions\Microsoft.LightSwitch.Extensions\Server\Reference\es\Microsoft.LightSwitch.Extensions.Server.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Client\es\Microsoft.LightSwitch.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Client\es\Microsoft.LightSwitch.ExportProvider.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.LightSwitch.ManifestService.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.LightSwitch.Model.Xaml.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.LightSwitch.Server.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.LightSwitch.Server.Host.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.Data.Edm.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.Data.OData.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.Data.Services.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\Microsoft.Data.Services.Client.resources.dll
+C:\Program Files\Microsoft SDKs\LightSwitch\v5.0\Server\es\System.Spatial.resources.dll
+C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\es\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\es\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\es\System.ServiceModel.DomainServices.Hosting.OData.resources.dll
+C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\es\System.ServiceModel.DomainServices.Server.resources.dll

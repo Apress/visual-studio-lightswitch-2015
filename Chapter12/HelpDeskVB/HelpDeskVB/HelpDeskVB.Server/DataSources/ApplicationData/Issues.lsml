@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="Issue">
+    <EntityType.Attributes>
+      <CreatedModifiedPropertiesEnabled />
+    </EntityType.Attributes>
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="Id"
+        PropertyType=":Int32">
+        <KeyProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="TargetEndDateTime"
+        PropertyType=":DateTime">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+          <Required />
+          <DisplayName
+            Value="$(TargetEndDateTime)" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Subject"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="255" />
+          <Required />
+          <DisplayName
+            Value="$(Subject)" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="CreateDateTime"
+        PropertyType=":DateTime">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+          <DisplayName
+            Value="$(CreateDateTime)" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ProblemDescription"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="255" />
+          <DisplayName
+            Value="$(ProblemDescription)" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Icon"
+        PropertyType="Microsoft.LightSwitch.Extensions:Image">
+        <EntityProperty.Attributes>
+          <Computed />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <NavigationProperty
+        Name="AssignedEngineer"
+        Association="Issue_Engineer"
+        FromEnd="Issue"
+        ToEnd="Engineer">
+        <NavigationProperty.Attributes>
+          <DisplayName
+            Value="$(AssignedEngineer)" />
+        </NavigationProperty.Attributes>
+      </NavigationProperty>
+      <NavigationProperty
+        Name="ClosedByEngineer"
+        Association="Issue_Engineer1"
+        FromEnd="Issue"
+        ToEnd="Engineer">
+        <NavigationProperty.Attributes>
+          <DisplayName
+            Value="$(ClosedByEngineer)" />
+        </NavigationProperty.Attributes>
+      </NavigationProperty>
+      <NavigationProperty
+        Name="Priority"
+        Association="Issue_Priority"
+        FromEnd="Issue"
+        ToEnd="Priority">
+        <NavigationProperty.Attributes>
+          <DisplayName
+            Value="$(Priority)" />
+        </NavigationProperty.Attributes>
+      </NavigationProperty>
+      <NavigationProperty
+        Name="IssueStatus"
+        Association="Issue_IssueStatus"
+        FromEnd="Issue"
+        ToEnd="IssueStatus">
+        <NavigationProperty.Attributes>
+          <DisplayName
+            Value="$(IssueStatus)" />
+        </NavigationProperty.Attributes>
+      </NavigationProperty>
+      <NavigationProperty
+        Name="IssueResponses"
+        Association="Issue_IssueResponse"
+        FromEnd="Issue"
+        ToEnd="IssueResponse" />
+      <EntityProperty
+        Name="ClosedDateTime"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+          <DisplayName
+            Value="$(ClosedDateTime)" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <NavigationProperty
+        Name="IssueDocuments"
+        Association="Issue_IssueDocument"
+        FromEnd="Issue"
+        ToEnd="IssueDocument" />
+      <NavigationProperty
+        Name="IssueStatusChanges"
+        Association="IssueStatusChange_Issue"
+        FromEnd="Issue"
+        ToEnd="IssueStatusChange" />
+      <EntityProperty
+        Name="CreatedBy"
+        IsReadOnly="True"
+        PropertyType=":Person?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Created"
+        IsReadOnly="True"
+        PropertyType=":DateTimeOffset?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ModifiedBy"
+        IsReadOnly="True"
+        PropertyType=":Person?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Modified"
+        IsReadOnly="True"
+        PropertyType=":DateTimeOffset?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="RowVersion"
+        PropertyType=":RowVersion">
+        <EntityProperty.Attributes>
+          <Hidden />
+          <UseForConcurrency />
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="ApplicationData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="Issues"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="Issue" />
+    <QueryOperation
+      Name="Issues_Single"
+      ReturnType="Issue">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="Id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="Id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="Issues" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="Id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'Id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="Issues_SingleOrDefault"
+      ReturnType="Issue">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="Id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="Id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="Issues" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="Id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'Id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <AssociationSet
+      Name="Issue_IssueResponses"
+      Association="Issue_IssueResponse">
+      <AssociationSetEnd
+        Name="Issue"
+        EntitySet="Issues" />
+      <AssociationSetEnd
+        Name="IssueResponse"
+        EntitySet="IssueResponses" />
+    </AssociationSet>
+    <AssociationSet
+      Name="Issue_IssueDocuments"
+      Association="Issue_IssueDocument">
+      <AssociationSetEnd
+        Name="Issue"
+        EntitySet="Issues" />
+      <AssociationSetEnd
+        Name="IssueDocument"
+        EntitySet="IssueDocuments" />
+    </AssociationSet>
+    <AssociationSet
+      Name="IssueStatusChange_Issues"
+      Association="IssueStatusChange_Issue">
+      <AssociationSetEnd
+        Name="IssueStatusChange"
+        EntitySet="IssueStatusChanges" />
+      <AssociationSetEnd
+        Name="Issue"
+        EntitySet="Issues" />
+    </AssociationSet>
+  </EntityContainer>
+  <DataService
+    Name="ApplicationDataMapping">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="Issues">
+      <EntitySetMapping.Attributes>
+        <SsdlForeignKeyProperty
+          Name="Issue_Engineer"
+          Nullable="False"
+          Type="int" />
+        <SsdlForeignKeyProperty
+          Name="Issue_Engineer1"
+          Nullable="True"
+          Type="int" />
+        <SsdlForeignKeyProperty
+          Name="Issue_Priority"
+          Nullable="True"
+          Type="int" />
+        <SsdlForeignKeyProperty
+          Name="Issue_IssueStatus"
+          Nullable="True"
+          Type="int" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+    <AssociationSetMapping
+      AssociationSet="Issue_IssueResponses">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="Issue_IssueResponses" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[Issue_IssueResponses]/Members[Issue]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[Issue_IssueResponses]/Members[IssueResponse]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Issue_IssueResponse" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+    <AssociationSetMapping
+      AssociationSet="Issue_IssueDocuments">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="Issue_IssueDocuments" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[Issue_IssueDocuments]/Members[Issue]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[Issue_IssueDocuments]/Members[IssueDocument]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Issue_IssueDocument" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+    <AssociationSetMapping
+      AssociationSet="IssueStatusChange_Issues">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="IssueStatusChange_Issues" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[IssueStatusChange_Issues]/Members[IssueStatusChange]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="IssueStatusChange_Issue" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[IssueStatusChange_Issues]/Members[Issue]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+  </DataService>
+  <Association
+    Name="Issue_IssueResponse">
+    <AssociationEnd
+      Name="Issue"
+      Multiplicity="One"
+      EntityType="Issue">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+    <AssociationEnd
+      Name="IssueResponse"
+      Multiplicity="Many"
+      EntityType="IssueResponse" />
+  </Association>
+  <Association
+    Name="Issue_IssueDocument">
+    <AssociationEnd
+      Name="Issue"
+      Multiplicity="One"
+      EntityType="Issue">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+    <AssociationEnd
+      Name="IssueDocument"
+      Multiplicity="Many"
+      EntityType="IssueDocument" />
+  </Association>
+  <Association
+    Name="IssueStatusChange_Issue">
+    <AssociationEnd
+      Name="IssueStatusChange"
+      Multiplicity="Many"
+      EntityType="IssueStatusChange" />
+    <AssociationEnd
+      Name="Issue"
+      EntityType="Issue">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+  </Association>
+</ServiceApplication>

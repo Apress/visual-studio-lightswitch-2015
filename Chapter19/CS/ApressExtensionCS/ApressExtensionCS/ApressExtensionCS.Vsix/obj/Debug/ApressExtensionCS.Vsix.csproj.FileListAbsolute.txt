@@ -1,0 +1,5 @@
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Vsix\bin\Debug\ApressExtensionCS.vsix
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Vsix\bin\Debug\extension.vsixmanifest
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Vsix\obj\Debug\ApressExtensionCS.dll
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Vsix\obj\Debug\ApressExtensionCS.pdb
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Vsix\obj\Debug\extension.vsixmanifest

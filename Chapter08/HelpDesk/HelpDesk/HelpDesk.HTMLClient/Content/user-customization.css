@@ -1,0 +1,139 @@
+﻿/* Replace user-splash-screen.png with your own splash screen image */
+#msls-id-app-loading .msls-app-loading-img {
+    background-image: url(Images/user-splash-screen.png);
+}
+
+/* Font families for screen and dialog headers.  Font families for content inside a screen 
+    or dialog are determined by the theme's global font family setting. */
+.msls-header .ui-title {
+    font-family: 'Segoe Light', 'Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Roboto Light','Frutiger','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+/* Customizable font styles for screen controls */
+.msls-font-style-large {
+}
+
+.msls-font-style-normal {
+}
+
+.msls-font-style-small {
+}
+
+
+.prols .msls-large-icon .ui-icon, .msls-large-icon .ui-icon-searchfield::after {
+    background-image: url(images/msls-blue-icons-36.png) !important;
+    border-color: #0072c6;
+}
+
+
+.prols .msls-footer .prols-mail-icon .msls-large-icon .ui-icon{
+    background-image: url("/HTMLClient/Content/Images/mail_icon.png") !important;
+    background-size: 20px;
+    background-position-x: 3px;
+    background-position-y: 6px;
+}
+
+
+/*Listing 8-16. CSS rule to left align the footer items*/
+.prols .msls-footer .msls-buttons-row{
+    float:left;
+}
+
+/*Listing 8-17. Setting alternate row colors to all tables in an application
+*/
+
+.prols tr:nth-child(2n+1){
+    background-color:darkgray;
+    }
+
+.prols tr:nth-child(2n){
+    background-color:dimgray;
+}
+
+
+.prols th{
+    background-color:darkblue ;
+} 
+
+
+/*Listing 8-18. Setting alternate row colors to specific tables in an application*/
+.prols .prols-table tr:nth-child(2n+1){
+    background-color:wheat;
+    color:black ;
+    }
+.prols .prols-table  tr:nth-child(2n){
+    background-color:antiquewhite;
+    color:black ;
+}
+.prols .prols-table-header{
+   background-image: linear-gradient( #000000, #ede4e4 );
+} 
+
+
+/*Listing 8-19. Setting alternate colors to all lists and tile lists  in an application*/
+
+.prols .msls-listview li:nth-child(2n) {
+    /*background-color: dimgray;*/
+    background-color: dimgray ;
+}
+
+.prols .msls-listview li:nth-child(2n+1) {
+    background-color: darkgray;
+}
+
+.prols .ui-btn-up-a {
+    background-image: none;
+}
+
+
+/*Listing 8-20. Applying alternate colorsa specific list or tile list control*/
+.prols .prols-list li:nth-child(2n+1) {
+    background-color: wheat;
+   color:black ;
+}
+.prols .prols-list li:nth-child(2n) {
+    background-color: antiquewhite;
+   color:black ;
+}
+
+
+/*Listing 8-21. Applying conditional formatting  to a table cell*/
+.prols .prols-alert-text{
+    background-color:red !important ;
+    color:white;
+}
+
+.prols .prols-highlight-text,
+.prols .msls-listview li.prols-highlight-text /*use this to override the alternate coloring example*/
+{
+    background-color:yellow ;
+    color:black ;
+    background-image :none;
+}
+
+
+
+/* Uncomment the following lines if you want to use certain jQuery Mobile listview features such as 
+    count bubbles and icons inside LightSwitch lists. jQuery Mobile relies on list items using 
+    position:relative for these features.  However, this setting performs poorly on certain mobile 
+    devices (webkit based in particular) when there are large numbers of items in the list. */
+/*
+.msls-ctl-list .ui-listview > .ui-li,
+.msls-ctl-list .ui-field-contain.ui-li {
+    position: relative;
+}
+*/
+
+/* Phone media query (portrait and landscape) */
+@media 
+screen and (max-width: 400px) and (orientation: portrait), 
+screen and (max-width: 640px) and (max-height: 400px) and (orientation: landscape) {
+
+    /*Listing 8-23. CSS rule to hide data on smaller devices*/
+    .prols-phone-hidden{
+        display:none;
+    } 
+
+
+}

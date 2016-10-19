@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\Client.lsml" Checksum="E2E23FD275774B4E11424FF137A0DEDCB25D156FC184774710BFDC8F4B0500D5" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\Proxies.lsml" Checksum="71479835C71B910E5737696FE4D97226491A0A84216ECBF062482852CA66165C" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Startup.lsml" Checksum="F4B4A9F6EE5540E0BFD938F8839EDAC2AAD21449EC1C81B7E5C6660E827F60F8" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\AddEditIssue.lsml" Checksum="03CE07644332DABACC192CBA6D738B7FF86518E9C08B5215FA9FD3DB87555410" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\ViewIssue.lsml" Checksum="2A8E5C4EFBD6DF2896BC09A06BA9CF295688E00BF36605284E917277C923263D" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\ApplicationData\Issues.lsml" Checksum="5EA6966B5416DDFF413EBD6B8F13B04ADC0E51AF75B2C255D2518D4AF659036A" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\BrowseIssues.lsml" Checksum="96379AAD48FAFDA0ABB7DFDB0077C66EEBFBE31C5020CB713C1D76A856FAADA7" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\ApplicationData\Engineers.lsml" Checksum="CE0D110E322E773793AE799CA88484C3B638DB4FC5B068B39A165BDAE003CDDF" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter10\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\BrowseIssuesSearch.lsml" Checksum="FFDB95EC5249E1F3FCF9101347FBE6B928B1FA22A7CA996E24CC5A61776B2FD9" />
+  </Documents>
+</ModelDocumentManifest>

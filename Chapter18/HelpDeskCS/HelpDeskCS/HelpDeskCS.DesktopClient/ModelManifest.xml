@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\ApplicationData\Engineers.lsml" Checksum="38F913EF4373693E9EB54F09DD530C7EC3CFB70CB43AB38C662843925F271066" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\ApplicationData\Issues.lsml" Checksum="3FDAB1375961164421EF408C47FA464E06E1828DBB67B4B9838DF212C23FE1FD" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\Client.lsml" Checksum="9E8812450B1AC5C32715EEA5438B7547F1EB2B7A62F7DA4CDA8B8017BBF71E6E" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\Proxies.lsml" Checksum="2848806C0178705392752587FE796DB982198B7815A7F4C46C597434B646130E" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\Info.lsml" Checksum="2AB4C37DE153D0431F619F7AF800CFD59E9D815253A76DB035742EDF885009BF" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\IssueDetail.lsml" Checksum="7A12DFF17AA30F9B8F48AE47236485B0778D6F4536CA27A8800BF94732E23C81" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\SearchIssues.lsml" Checksum="AE354F0F045FAAEB6E3F2051889B7DC04F0E7B7A6934D48CE184DE8B68039A1A" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EditableIssueStatusSetGrid.lsml" Checksum="444BE591AB0646A91917621AFFD3FB11A36AD01433DCB0EBFDF505F4909FBC78" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EngineersListDetail.lsml" Checksum="4CE7785B8EAA08D4C209DDACA6EF8F84A2AE31AA0DB010AFC51A7CE55897429C" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\IssuesListDetail.lsml" Checksum="37633CE1F3F2FDCEF13939D66DEBF215F3A335AE10E6AF7E2CA0FED330B7789E" />
+  </Documents>
+</ModelDocumentManifest>

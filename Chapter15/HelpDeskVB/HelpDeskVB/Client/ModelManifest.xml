@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter15\HelpDeskVB\HelpDeskVB\Client\My Project\ApplicationData\Engineers.lsml" Checksum="77D1BF4D24FA7B7D4AE9F4EDBAA9F279DAC4D5E16D0D246FD7C8E9569DE5FBC6" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter15\HelpDeskVB\HelpDeskVB\Client\My Project\Client.lsml" Checksum="22470AF8B613EFA323E69C44657D7DD39C2B63F70D1AF91C0D193582B626F6AA" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter15\HelpDeskVB\HelpDeskVB\Client\My Project\Proxies.lsml" Checksum="5126CBEC74628DE5BC1163FC7980396EEFB747B1308FF0F0BDBB9E52F9C1AB2F" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter15\HelpDeskVB\HelpDeskVB\Client\Screens\EditableIssuesGrid.lsml" Checksum="78C554D5B9BA39BE3D63D4A52D291199C2A73F09880516D23FDA4EFC3772890B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter15\HelpDeskVB\HelpDeskVB\Client\Screens\Info.lsml" Checksum="AACE2D411809BC207E195EEA9942D84BF8CBB611EC8410E15818B86EF290231D" />
+  </Documents>
+</ModelDocumentManifest>

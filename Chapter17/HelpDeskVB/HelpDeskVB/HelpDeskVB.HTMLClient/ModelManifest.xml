@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\ApplicationData\Engineers.lsml" Checksum="6C34A638EBD3B8A6AAC3819EB3319602F92AE89F3DA3A9895C847DFE255EF8A6" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\ApplicationData\Issues.lsml" Checksum="EA82F548D079CE21E937B2B5B93823AEFDDF85B38393523A31BB1B3DC6AC5FBB" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\Client.lsml" Checksum="12F182D8604CA531AC8B52B74226DFEB4DAFF4EF6D95C4735B9C2074315CEF61" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\Proxies.lsml" Checksum="CA1C5A5FD563AE1D122C4676DFF4C958FB1BB3881CBE67E704C1B7158AE34518" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Startup.lsml" Checksum="F0BE3CDA797874F5915983847449C1E90E7B95A8F8121689835960E98096421B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Engineers\BrowseEngineersTimesheets.lsml" Checksum="E19ED508FEF92224B04305B1A50EA40A8A84888DC6444C18D881746AC9816C8E" />
+  </Documents>
+</ModelDocumentManifest>

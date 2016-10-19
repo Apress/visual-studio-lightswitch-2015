@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\ApplicationData\Engineers.lsml" Checksum="0CDF3AA9552E13BCDE6FB20CA2CC2249922D3BC3E0009D2C76068B88AD1D8509" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\ApplicationData\Issues.lsml" Checksum="72C81EE19AF1F074AAF7B1EB32FB4F4B2442E7B194B821E9C0A14138A1A27CE1" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\Client.lsml" Checksum="F4AF50DF14FAA8EE95440114003BB251627FCBBC4D03DE02ABCCC4497BB67CB3" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\Proxies.lsml" Checksum="6CB7219715FEAC0FFFE7F913C9A70EFB3246A77D25B4ED258BC9C063DE0D8393" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EditableIssuesGrid.lsml" Checksum="B3CDB1B5A72AE7043BEEE0BEEF0D719C2BFAEA4F3FC1A945BB0EF035621ED34C" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EditableIssueStatusSetGrid.lsml" Checksum="890817CF3D2DA0F5033B13989E819620D43F9231649F8D17AF922E4A48564D8C" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EditablePrioritiesGrid.lsml" Checksum="548BF375549EB1AEC737FCE9A10D5ADB7B72F386B05A9320E0A6ED0B1FA656BE" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\Info.lsml" Checksum="7115CBFF78804E9905A112A0CC1B0EED7F36BD75C2770B49E96EBA0163BE90C7" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter16\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EngineersManagerGrid.lsml" Checksum="0D5E6FA2B56B437A8778B77584BC4BD0DA805B35D4B246D93B00BA5F5F5935B5" />
+  </Documents>
+</ModelDocumentManifest>

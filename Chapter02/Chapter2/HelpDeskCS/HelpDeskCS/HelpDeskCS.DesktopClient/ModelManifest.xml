@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\ApplicationData\Engineers.lsml" Checksum="38F913EF4373693E9EB54F09DD530C7EC3CFB70CB43AB38C662843925F271066" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\ApplicationData\Issues.lsml" Checksum="B245FB0E1EDDFA225451007ECAA6F9204A99DFED498E7E8A96D261D1A08246A7" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\Client.lsml" Checksum="FB15B791A64D3A19907B0288F8059A8A6E20F4B530EC5E348142CE843930A6A3" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\Proxies.lsml" Checksum="49C0835EBA94B9BDC59A8CB1B62D1774D004D46DE2AA3EC01AB63F302CD9BEFB" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\Startup.lsml" Checksum="950B7BE7A7E6ACE2589A7754CB5733D35E9A4ADF00468D01755DF9835E94A9D7" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EngineersListDetail.lsml" Checksum="817A56A918023458DCF8F1CF802FEC139BF3E7F93231C25978A64A5A9FC10528" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter2\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\IssuesListDetail.lsml" Checksum="C3D8E3AE50726CA962E847D88F34F3423265F413806809DACC06FCEBCDA99816" />
+  </Documents>
+</ModelDocumentManifest>

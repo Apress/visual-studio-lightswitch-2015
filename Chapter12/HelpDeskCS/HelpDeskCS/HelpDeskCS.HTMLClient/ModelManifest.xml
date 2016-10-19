@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\ApplicationData\Engineers.lsml" Checksum="845471BF20458F8D8D9FC980354CA2C7BB64A46DAC3EB469A67D271E7B4EE7F0" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\ApplicationData\Issues.lsml" Checksum="5EA6966B5416DDFF413EBD6B8F13B04ADC0E51AF75B2C255D2518D4AF659036A" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\Client.lsml" Checksum="6822202B725B54938EDC1A90AAA86E668809EA805E9C259F30E4A5135E6F3D5A" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Properties\Proxies.lsml" Checksum="B18B89ABA8590510BE0DF7D6DD55970A566579BE0BA729F1A56769AC32722504" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Engineers\AddEditEngineer.lsml" Checksum="D80D132445A760710964C8CDE69017153D12FFB7FC4E5C56F3D0AD9999F4E159" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Engineers\BrowseEngineers.lsml" Checksum="38C89747EF3F34C1B46562502F345D3423E1F214BBF4FF5C81B0CD3DF615D304" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Engineers\ViewEngineer.lsml" Checksum="977B10D468AB52C67044F44C9090AC6BAF5D77308361CB35F40C9F4E96401F7F" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\AddEditIssue.lsml" Checksum="966F0092F7FE69C0BFFD9D957F8297780BE35DCF0AD6DC2F139F1C98A977714B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\BrowseIssues.lsml" Checksum="C562BBF0944B60AD4EBA03487D77EEC0E4BB60CD339F47617D76B7E626DBE770" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Issues\ViewIssue.lsml" Checksum="30AEFA874748CE833E7277BD720DD5A1B303CCE95597EC36F70A483EADBC0528" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskCS\HelpDeskCS\HelpDeskCS.HTMLClient\Screens\Info.lsml" Checksum="BC9BBE89597F80EB4171664E9C5ECFE570E00FB5098A7DA4F0242D717DA5B1B4" />
+  </Documents>
+</ModelDocumentManifest>

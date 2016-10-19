@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Departments.lsml" Checksum="2A4D008B4E5A3A0162DC3B4040BDB575DE7C7C82EB0DCCCCD073D6421BAEC7EC" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Engineers.lsml" Checksum="602AF5EE157BF90E09F99A67A7BA638B40D85F60174E11FD8ACF12775B72B833" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\EngineerSkills.lsml" Checksum="EDFFBF0AF2731DCDC2E33B4681B0012FE493DC6EF167585D7AAB9340E3917EDD" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\IssueDocuments.lsml" Checksum="8A05511FAD505B173400F3556D5E0947D5097F16EF96E0A7C623942FBE8B70B0" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\IssueResponses.lsml" Checksum="745BD4C2B1BEFCDC7CDA34633F4784BA38CBAED95833CDA72D26D0C0BF87A8C0" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Issues.lsml" Checksum="942128D3BDB7F5DA359CE36B8CC0DA3D56DD12B1FE7DDFE0186615EA79DDA54B" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\IssueStatusSet.lsml" Checksum="A1331E9947BCB055C43A79573E8BDBFFC0A1A4CA83C77FD170D7DA994C413473" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Priorities.lsml" Checksum="808D11C911F056AF5B726E9192F62CFA7EE1FB60466374D458E06D8581EB4B45" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Skills.lsml" Checksum="2AB875C053E562E0DBCD9C3F659E31F7DC7FDAA0AB7D814628D48C103709ED12" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Timesheets.lsml" Checksum="25C84E0F9ED40AE6A84AC8C6E72E819CEAE091554540E0BAED2BD40865379C52" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\Users.lsml" Checksum="DAC8A7670F296DA2223B2F27E50C946B54629BDD4DAB8955BC49E1E017768F2B" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\My Project\DataSources\ApplicationData.lsml" Checksum="E6FEEAC3B4A850AAC5F0029259A0B9F8C1BD45F2950D17BD8D6664B9422E6AD6" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\My Project\Service.lsml" Checksum="679C78F29C5AF23E9956A773B0E46DF90F7B86CADA0B79571E5896A1C79F5B70" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter11\HelpDeskVB\HelpDeskVB\HelpDeskVB.Server\DataSources\ApplicationData\AppOptions.lsml" Checksum="51F3920931E4069C817318E655AD787D3674F3A56CB31D30BF03546468A8E3F7" />
+  </Documents>
+</ModelDocumentManifest>

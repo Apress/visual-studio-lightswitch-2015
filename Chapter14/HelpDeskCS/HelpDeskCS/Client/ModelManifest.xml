@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Properties\ApplicationData\Engineers.lsml" Checksum="E153FC77051C855B68A0F70A3B40648CE3F53F1A8FA8E6A55F950BD761EF86F9" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Properties\ApplicationData\Issues.lsml" Checksum="E3284411415E9C06E1A2A4EC9E8CD7CE127984019AFAD93EBEBB72E2D513994B" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Properties\Client.lsml" Checksum="8097A09A544DEBAEB5631D5D41DEF6A646E97FBA3DF3FE2D88F4ABD6B2ED745D" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Properties\Proxies.lsml" Checksum="0D98577B692BB05A05584DD7BD4AC7B15BF6BF83AAC596F68EA521AD582B6CC6" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Screens\EditableEngineersGrid.lsml" Checksum="F9B613FDAA01FED39D2D13CFB0D028286702854166EA3A96D2BAC804B408C3AF" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Screens\EditableIssuesGrid.lsml" Checksum="F1D5F67A97BDDAEA9C454449A17D59856142FCFBBAF137AEE7CAD45A64FFEC91" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Screens\EngineersManagerGrid.lsml" Checksum="2ED5614E1DF3BE948CE646AB922196D3A6B577CB85A2BD7E4AA6F7B1AB8160AB" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Screens\Info.lsml" Checksum="A5055C7B3FB2BA65344A687D44F4C5A7F61618A6DFC2CDB3226CDF0103E5D108" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Client\Screens\RIAEngineerRecordsGrid.lsml" Checksum="1928C0BC109AB3501DAF39B1FA512CB549E8AD1B6D99DE7DCE18FF2CFF1DA789" />
+  </Documents>
+</ModelDocumentManifest>

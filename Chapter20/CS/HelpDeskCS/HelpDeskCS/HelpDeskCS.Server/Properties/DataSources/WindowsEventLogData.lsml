@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityContainer
+    Name="WindowsEventLogData"
+    DataProvider="CustomDataProvider">
+    <EntityContainer.Attributes>
+      <Partial
+        IsPrimary="True" />
+    </EntityContainer.Attributes>
+    <SubmitOperation
+      Name="SaveChanges" />
+  </EntityContainer>
+  <DataService
+    Name="WindowsEventLogDataDataService"
+    EntityContainer="WindowsEventLogData">
+    <DataService.Attributes>
+      <Partial
+        IsPrimary="True" />
+    </DataService.Attributes>
+    <DataService.ConnectionProperties>
+      <ConnectionProperty
+        Name="AssemblyName"
+        Value="ApressExtensionCS.Server" />
+      <ConnectionProperty
+        Name="FullClassName"
+        Value="ApressExtensionCS.DataSources.WindowsEventLog" />
+      <ConnectionProperty
+        Name="ConnectionStringGuid"
+        Value="e5517bd9-d12d-48f7-a21d-b77d9405d3b7" />
+      <ConnectionProperty
+        Name="ConnectionStringDescription"
+        Value="" />
+    </DataService.ConnectionProperties>
+  </DataService>
+</ServiceApplication>

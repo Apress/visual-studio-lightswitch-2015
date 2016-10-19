@@ -1,0 +1,18 @@
+﻿{
+    "Age" : "Edad",
+    "DateOfBirth" : "Fecha de Cumpleaños",
+    "Firstname" : "Nobre",
+    "FullName" : "Nombre Completo",
+    "IssueCount" : "Contar de Problemas",
+    "LoginName" : "Nombre de inicio de sesión",
+    "SSN" : "SSN",
+    "Surname" : "Appelido",
+    "Add" : "Añadir",
+    "Edit" : "Editar",
+    "Save" : "Guardar",
+    "Browse" : "Ramonear",
+    "ValidateClosedDate" : "'Fecha Cerrada' debe ser mayor que 'Create Date'.",
+    "ValidationRequiredField" : "(*) indica campo requerido",
+    "Issue" : "Problema",
+    "Engineer":"Ingeniero"
+}

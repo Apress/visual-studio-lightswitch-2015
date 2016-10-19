@@ -1,0 +1,13 @@
+HelpDeskCS.Server.Properties.Service.lsml
+HelpDeskCS.Server.Properties.DataSources.ApplicationData.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Engineers.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Issues.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Departments.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.EngineerSkills.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.IssueDocuments.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.IssueResponses.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.IssueStatusSet.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Priorities.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Skills.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Timesheets.lsml
+HelpDeskCS.Server.DataSources.ApplicationData.Users.lsml

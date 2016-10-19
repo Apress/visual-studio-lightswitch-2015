@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\ApplicationData\Engineers.lsml" Checksum="0CDF3AA9552E13BCDE6FB20CA2CC2249922D3BC3E0009D2C76068B88AD1D8509" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\ApplicationData\Issues.lsml" Checksum="DE7A69332435664D6C2DB61ED8776400C4895D63FF7B5E0ED3FE57C2F830209A" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\Client.lsml" Checksum="2A3511A39709A229F101BB90619973296F7DB2A672F55CDD8AD4C4CCAD244C5B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\Proxies.lsml" Checksum="D94D55C08C0ED9E3D283498D701A20DD72720E9258702F50A530CA62DD1160F6" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\Info.lsml" Checksum="98F7EC69D16FA6E3FA5F134167B419427935FF5525128B53C2670C960AB62710" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\IssueDetail.lsml" Checksum="6E566AB11B468FDBBB0DBB72241BF46483C66B2F7414EF4CC9E399BF553BDA50" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\SearchIssues.lsml" Checksum="24F58D416C1515334B4B8019B67B3BCE7D0785228687E0B8D151F68A42BB1D14" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter18\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EditableIssueStatusSetGrid.lsml" Checksum="890817CF3D2DA0F5033B13989E819620D43F9231649F8D17AF922E4A48564D8C" />
+  </Documents>
+</ModelDocumentManifest>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2FD24BE-F1DF-4E7E-8063-94E9C0DEEA72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ApressExtensionVB</RootNamespace>
+    <AssemblyName>ApressExtensionVB.Design</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MicrosoftSdkDir Condition="'$(MicrosoftSdkDir)' == ''">$([System.IO.Path]::Combine($(MSBuildProgramFiles32), 'Microsoft SDKs'))</MicrosoftSdkDir>
+    <LightSwitchVersion Condition="'$(LightSwitchVersion)' == ''">v4.0</LightSwitchVersion>
+    <LightSwitchSdkPath Condition="'$(LightSwitchSdkPath)' == ''">$([System.IO.Path]::Combine($(MicrosoftSdkDir), 'LightSwitch', $(LightSwitchVersion)))</LightSwitchSdkPath>
+    <LightSwitchSdkPath Condition="'$(LightSwitchSdkPath)' != '' and !HasTrailingSlash('$(LightSwitchSdkPath)')">$(LightSwitchSdkPath)\</LightSwitchSdkPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ApressExtensionVB.Design.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ApressExtensionVB.Design.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.LightSwitch.ExportProvider, Version=10.0.11.3, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SDKs\LightSwitch\v5.0\Client\Microsoft.LightSwitch.ExportProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.LightSwitch">
+      <HintPath>$(LightSwitchSdkPath)\Client\Microsoft.LightSwitch.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.LightSwitch.Design.Designer">
+      <HintPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\LightSwitch\$(LightSwitchVersion)\Microsoft.LightSwitch.Design.Designer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.LightSwitch.Model.Xaml">
+      <HintPath>$(LightSwitchSdkPath)\Server\Microsoft.LightSwitch.Model.Xaml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ApressExtensionVB.Common\CustomEditorHelper.vb">
+      <Link>CustomEditorHelper.vb</Link>
+    </Compile>
+    <Compile Include="Editors\CustomEditorValueConverters.vb" />
+    <Compile Include="Editors\EntityPropertyDropdown.xaml.vb">
+      <DependentUpon>EntityPropertyDropdown.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\EntityPropertyDropdownEditor.vb" />
+    <Compile Include="EditorTemplates.xaml.vb">
+      <DependentUpon>EditorTemplates.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaxIntegerEditor.vb" />
+    <Compile Include="MaxIntegerEditorDialog.xaml.vb">
+      <DependentUpon>MaxIntegerEditorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\ComboBoxImageProvider.vb" />
+    <Compile Include="Resources\DurationEditorImageProvider.vb" />
+    <Compile Include="Resources\DurationTypeControlImageProvider.vb" />
+    <Compile Include="Resources\HighlightButtonImageProvider.vb" />
+    <Compile Include="Resources\ToggleControlImageProvider.vb" />
+    <Compile Include="ScreenTemplates\AddEditScreenTemplate.vb" />
+    <Compile Include="ScreenTemplates\ViewDeleteScreenTemplate.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ControlImages\DurationEditor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ControlImages\ComboBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Editors\EntityPropertyDropdown.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditorTemplates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MaxIntegerEditorDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ControlImages\ToggleControl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ControlImages\HighlightButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ControlImages\DurationTypeControl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ScreenTemplateImages\AddEditScreenTemplateLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ScreenTemplateImages\AddEditScreenTemplateSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ScreenTemplateImages\ViewDeleteScreenTemplateLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ScreenTemplateImages\ViewDeleteScreenTemplateSmall.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

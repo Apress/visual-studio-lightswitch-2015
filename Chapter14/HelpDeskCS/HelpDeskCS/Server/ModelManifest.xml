@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\AppOptions.lsml" Checksum="DBAC6CCA9AAF402D6DC1A814FD4D54C5391F6DC758159E0AC1EC6490D3DC9101" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\Departments.lsml" Checksum="1B368F200E9B7484E1A9A20E0E5779BDA26AC6C2BB61E9260D3B6E83A34738EE" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\Engineers.lsml" Checksum="6D81E544A2E24AE6832C6D37E7E44D46BFCA6A84944BAFBDD573A8C6C30D0251" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\EngineerSkills.lsml" Checksum="CE79F06B8A6B4F63A9F72D45D420626378BA30372C5CB16F279A643C5D9ECD2C" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\IssueDocuments.lsml" Checksum="B1A49B3F374E193B15AADBD7DB4B45D7BB2AF941F557DD4747EF040B9A64153A" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\IssueFeedbacks.lsml" Checksum="041E7824AB22B6828158213E5324345D50EEA3B89BDD0B6F163486F9B85DA263" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\IssueResponses.lsml" Checksum="79EB2F5F7A83532F020231B44757E0A1352DDA53DAFA279CB28A51FB582B85FE" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\Issues.lsml" Checksum="727332FF2C27F3AC40E6B2DD1E85588DF21102A2429EE45BC1F62E1B09BBD058" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\IssueStatusSet.lsml" Checksum="60CB9500F38D5AB77BDBFFBD5113DB8D1A7A4C38AA362A42A88E8CD85E8324F2" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\Priorities.lsml" Checksum="24158C340EB8DBBF2A01F6E644459F37CE5CC5A237FEA49D3DCE9F8743B6F2A6" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\Skills.lsml" Checksum="D7835F742611A85D3A14B88C1F66BE0E34F393B6FAFC98FE77C9578CCAE90B36" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\TimeTrackings.lsml" Checksum="D693F5CCFF07726A509AAAEEF2FD027BDB3F31E617549F26070327448989DE20" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\ApplicationData\Users.lsml" Checksum="4CF72DEB64C8334CD5B85962D8CBD2317D3D2F3523E4688B069EF24CA27B4F04" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\DataSources\EngineerData\EngineerRecords.lsml" Checksum="58A7F18977CDAC3B3C2C04B9F8543071505338A1F2A10DB941AD294189C6DE4A" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\Properties\DataSources\ApplicationData.lsml" Checksum="5E67DCFF561BF5A33FB77F70A431881D5DBC2A606E6042A19A7378EA4BD8234E" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\Properties\DataSources\EngineerData.lsml" Checksum="5C47C088D8EA8DB06DB78087191AD74F7A61213D83CBA7962FD01446CFCD76D3" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskCS\HelpDeskCS\Server\Properties\Service.lsml" Checksum="C5A14318FA6C2CA1D7EFD82773EA033EBDADEA36422BF6BF457F92888BB19ABF" />
+  </Documents>
+</ModelDocumentManifest>

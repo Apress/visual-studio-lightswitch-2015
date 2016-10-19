@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>datajs</id>
+        <version>1.1.3</version>
+        <authors>Microsoft Open Technologies</authors>
+        <owners>Microsoft Open Technologies</owners>
+        <licenseUrl>http://datajs.codeplex.com/license/</licenseUrl>
+        <projectUrl>http://datajs.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>datajs is a new cross-browser JavaScript library that enables data-centric web applications by leveraging modern protocols such as JSON and OData and HTML5-enabled browser features</description>
+        <releaseNotes>Two bugs are fixed:
+1. The 'formatLiteral' function escapes only the first occurrence of a single quote instead of all of them.
+2. The 'jsonLightPayloadInfo' function does not unescape entity set names extracted directly from a URL.</releaseNotes>
+        <copyright>Copyright (c) Microsoft Open Technologies, Inc. All rights reserved.</copyright>
+        <tags>javascript js HTML5 odata cache data DOM-storage local-storage indexeddb</tags>
+    </metadata>
+</package>

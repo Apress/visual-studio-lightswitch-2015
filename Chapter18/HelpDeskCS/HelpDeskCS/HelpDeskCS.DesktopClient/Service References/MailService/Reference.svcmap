@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1cb3b847-e945-441e-910f-317259a362c6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:35178/MailService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MailService.disco" MetadataType="Disco" ID="56c76429-ad87-46de-b97b-b065e7a00275" SourceId="1" SourceUrl="http://localhost:35178/MailService.svc?disco" />
+    <MetadataFile FileName="MailService.xsd" MetadataType="Schema" ID="385bbb05-1752-4e43-bf87-564fcec30fa9" SourceId="1" SourceUrl="http://localhost:35178/MailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MailService.wsdl" MetadataType="Wsdl" ID="4957cb0a-93ce-49ba-b33c-40627b14c438" SourceId="1" SourceUrl="http://localhost:35178/MailService.svc?wsdl" />
+    <MetadataFile FileName="MailService1.xsd" MetadataType="Schema" ID="fb1f547b-e2f1-40a3-87b4-c44513dc2513" SourceId="1" SourceUrl="http://localhost:35178/MailService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

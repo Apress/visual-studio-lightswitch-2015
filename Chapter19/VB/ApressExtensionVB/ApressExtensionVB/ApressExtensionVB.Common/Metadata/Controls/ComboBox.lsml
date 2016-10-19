@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModelFragment
+  xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+  <!--Listing 19-8. LSML Settings for a Details Control-->
+
+  <!-- 1 Set  SupportedContentItemKind to Details -->
+  <Control Name="ComboBox"
+    SupportedContentItemKind="Details"
+    DesignerImageResource="ApressExtensionVB.ComboBox::ControlImage">
+    <Control.Attributes>
+      <DisplayName Value="ComboBox" />
+    </Control.Attributes>
+
+    <!-- 2 Remove this block of code                                                        
+   <Control.SupportedDataTypes>
+      <SupportedDataType DataType=":String"/>
+   </Control.SupportedDataTypes> -->
+
+    <!-- 3 - Add this block of code-->
+    <Control.Properties>
+      <!--3.1 - Property that defines the display property -->
+
+      <!--Listing 19-17. Linking Your Property with Your Custom Editor-->
+      <ControlProperty Name="ComboDisplayItemProperty"
+                       PropertyType=":String"
+                       CategoryName="Appearance"
+                       UIEditorId="EntityPropertyDropdown"
+                       EditorVisibility="PropertySheet">
+        <ControlProperty.Attributes>
+          <DisplayName Value="Combo Display Property" />
+          <Description Value="Enter the Property that’s shown on each row" />
+        </ControlProperty.Attributes>
+
+        <ControlProperty.DefaultValueSource>
+          <ScreenExpressionTree>
+            <ConstantExpression ResultType=":String" Value="PriorityDesc"/>
+          </ScreenExpressionTree>
+        </ControlProperty.DefaultValueSource>
+      </ControlProperty>
+
+      <!--3.2 - Property that defines the query -->
+      <ControlProperty Name="ComboQueryProperty"
+                   PropertyType=":String"
+                   CategoryName="Appearance"
+                   EditorVisibility="PropertySheet">
+        <ControlProperty.Attributes>
+          <DisplayName Value="Combo Query Property" />
+          <Description Value="Enter the Screen Query - eg Screen.Priorities" />
+        </ControlProperty.Attributes>
+
+        <ControlProperty.DefaultValueSource>
+          <ScreenExpressionTree>
+            <ConstantExpression ResultType=":String"
+                Value="Screen.EnterYourQuery"/>
+          </ScreenExpressionTree>
+        </ControlProperty.DefaultValueSource>
+      </ControlProperty>
+    </Control.Properties>
+
+  </Control>
+
+</ModelFragment>
+

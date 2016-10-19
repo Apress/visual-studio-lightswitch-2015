@@ -1,0 +1,10 @@
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\bin\Debug\ApressExtensionCS.Server.dll
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\bin\Debug\ApressExtensionCS.Server.pdb
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\obj\Debug\ApressExtensionCS.Server.dll
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\obj\Debug\ApressExtensionCS.Server.pdb
+C:\Source2015\C19\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\obj\Debug\ApressExtensionCS.Server.csprojResolveAssemblyReference.cache
+C:\Source2015\Source2015Ready\Chapter19\CS\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\bin\Debug\ApressExtensionCS.Server.dll
+C:\Source2015\Source2015Ready\Chapter19\CS\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\bin\Debug\ApressExtensionCS.Server.pdb
+C:\Source2015\Source2015Ready\Chapter19\CS\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\obj\Debug\ApressExtensionCS.Server.dll
+C:\Source2015\Source2015Ready\Chapter19\CS\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\obj\Debug\ApressExtensionCS.Server.pdb
+C:\Source2015\Source2015Ready\Chapter19\CS\ApressExtensionCS\ApressExtensionCS\ApressExtensionCS.Server\obj\Debug\ApressExtensionCS.Server.csprojResolveAssemblyReference.cache

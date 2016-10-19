@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\My Project\ApplicationData\Engineers.lsml" Checksum="F02BCD7CBB1265C52BA1173086B3741BC67D7194AC0D3C1885F54945B600E233" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\My Project\ApplicationData\Issues.lsml" Checksum="E3284411415E9C06E1A2A4EC9E8CD7CE127984019AFAD93EBEBB72E2D513994B" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\My Project\Client.lsml" Checksum="8AAE90FC44C03A0AC2180992CA98A2E2EF78CB0CC6E3AD5A448A123452578BDC" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\My Project\Proxies.lsml" Checksum="B0D0FEE4FD64C5BAF09C49AF2C58BD41D8442B83A9D40AD8D6104EC55EF172AD" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\Screens\EditableEngineersGrid.lsml" Checksum="D1C0FA15A06EA5CD65CE941E073EA9F6F7EFA9867488CDD4E1D78F4FAE5DE709" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\Screens\EditableIssuesGrid.lsml" Checksum="D9213F9401D4FAC94AC81EE51C12BBB99D94CEAA92861661E247FCEED73088F7" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\Screens\EngineersManagerGrid.lsml" Checksum="3F1F2AA533EEFBC17A9AE9E2D2EB4CEA6BD6385E9A970D764E40429F263FEBCD" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\Screens\Info.lsml" Checksum="A5055C7B3FB2BA65344A687D44F4C5A7F61618A6DFC2CDB3226CDF0103E5D108" />
+    <Document FullPath="C:\LSPro\Chapter14\HelpDeskVB\HelpDeskVB\Client\Screens\RIAEngineerScreen.lsml" Checksum="8B68BAB579DA0A8AC9F848F45651552FFB47C22C0231200A8A9B0262F5EEC39F" />
+  </Documents>
+</ModelDocumentManifest>

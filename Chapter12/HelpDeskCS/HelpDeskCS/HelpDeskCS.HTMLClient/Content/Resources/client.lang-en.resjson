@@ -1,0 +1,19 @@
+﻿{
+    "Age" : "Age",
+    "DateOfBirth" : "Date of Birth",
+    "Firstname" : "Firstname",
+    "FullName" : "FullName",
+    "IssueCount" : "Issue Count",
+    "LoginName" : "Login Name",
+    "SSN" : "SSN",
+    "Surname" : "Surname",
+    "Add" : "Add",
+    "Edit" : "Edit",
+    "Save" : "Save",
+    "Browse" : "Browse",
+    "ValidateClosedDate" : "'Closed Date' must be greater than 'Create Date'.",
+    "Issue" : "Issue",
+    "Engineer" : "Engineer",
+    "ValidationRequiredField" : "(*) indicates required field",
+    "Search" : "Buscar"
+}

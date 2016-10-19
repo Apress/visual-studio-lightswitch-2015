@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityContainer
+    Name="EngineerData"
+    DataProvider="CustomDataProvider">
+    <EntityContainer.Attributes>
+      <Partial
+        IsPrimary="True" />
+    </EntityContainer.Attributes>
+    <SubmitOperation
+      Name="SaveChanges" />
+  </EntityContainer>
+  <DataService
+    Name="EngineerDataDataService"
+    EntityContainer="EngineerData">
+    <DataService.Attributes>
+      <Partial
+        IsPrimary="True" />
+    </DataService.Attributes>
+    <DataService.ConnectionProperties>
+      <ConnectionProperty
+        Name="AssemblyName"
+        Value="HelpDeskDataServiceVB" />
+      <ConnectionProperty
+        Name="FullClassName"
+        Value="HelpDeskDataServiceVB.EngineerDataService" />
+      <ConnectionProperty
+        Name="ConnectionStringGuid"
+        Value="73227ad0-b08e-4270-b6b2-add5f9ce4cff" />
+      <ConnectionProperty
+        Name="ConnectionStringDescription"
+        Value="Enter the connection string to the HelpDesk Database" />
+    </DataService.ConnectionProperties>
+  </DataService>
+</ServiceApplication>

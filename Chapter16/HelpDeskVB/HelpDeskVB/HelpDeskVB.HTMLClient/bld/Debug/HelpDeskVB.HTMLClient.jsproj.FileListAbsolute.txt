@@ -1,0 +1,6 @@
+C:\Source2015\Source2015Ready\Chapter7\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Source2015\Source2015Ready\Chapter7\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\bin\Debug\LSClientCodeGeneratorsTask.mcs
+C:\Source2015\Source2015Ready\Chapter8\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Source2015\Source2015Ready\Chapter8\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\bin\Debug\LSClientCodeGeneratorsTask.mcs
+C:\Source2015\Source2015Ready\Chapter2\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Source2015\Source2015Ready\Chapter2\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\bin\Debug\LSClientCodeGeneratorsTask.mcs

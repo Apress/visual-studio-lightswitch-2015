@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\ApplicationData\Engineers.lsml" Checksum="0CDF3AA9552E13BCDE6FB20CA2CC2249922D3BC3E0009D2C76068B88AD1D8509" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\ApplicationData\Issues.lsml" Checksum="72C81EE19AF1F074AAF7B1EB32FB4F4B2442E7B194B821E9C0A14138A1A27CE1" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\Client.lsml" Checksum="2091E1F73835B5B63A374A0C170B76D9358B6A7CAE933B1E4AE42569FE618984" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\My Project\Proxies.lsml" Checksum="3B0020ED7CE75E7B0517707AB1EF7B33067235FC7F110A7E4A5168CA09A08E7B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\CreateNewEngineer.lsml" Checksum="4E1E2CEE8951C05AB7CC7847720C3321192239C0E480F299C92E24355EAD2208" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\CreateNewIssue.lsml" Checksum="A5DA52D09757B98C95471D80F6302956EA7B3F7F2D2A94F097738061606F2DCE" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EditableEngineersGrid.lsml" Checksum="FAA58FE4FB84A653C8BBDFFDCEEF982B34FC52A94FEA2D085368FE99C8531E9B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\EditableIssuesGrid.lsml" Checksum="C844D6CCE08B6E71E08C8836717E7495C0876E1EF20293D604A83918788FF35B" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter12\HelpDeskVB\HelpDeskVB\HelpDeskVB.DesktopClient\Screens\Info.lsml" Checksum="BAA12B45F75AF79120FC0A8F19A6C8C6266B32D0E022662814B83C7613991299" />
+  </Documents>
+</ModelDocumentManifest>

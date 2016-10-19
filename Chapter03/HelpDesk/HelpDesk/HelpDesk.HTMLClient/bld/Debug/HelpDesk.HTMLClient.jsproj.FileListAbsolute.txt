@@ -1,0 +1,2 @@
+C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter3\HelpDesk\HelpDesk\HelpDesk.HTMLClient\bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter3\HelpDesk\HelpDesk\HelpDesk.HTMLClient\bin\Debug\LSClientCodeGeneratorsTask.mcs

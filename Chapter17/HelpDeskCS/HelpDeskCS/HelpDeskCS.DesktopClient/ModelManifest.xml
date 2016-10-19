@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\ApplicationData\Engineers.lsml" Checksum="38F913EF4373693E9EB54F09DD530C7EC3CFB70CB43AB38C662843925F271066" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\ApplicationData\Issues.lsml" Checksum="3FDAB1375961164421EF408C47FA464E06E1828DBB67B4B9838DF212C23FE1FD" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\Client.lsml" Checksum="6129BA2393C51A31292A0C9B8B15F4CA24717575AC71DCF1CA387448C73F7D81" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Properties\Proxies.lsml" Checksum="03BF88227E98E4858FE0878075CFA97E072410A626CBF4BF434FD05EE7F585EE" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\BuildLetter.lsml" Checksum="AC80FE3E64D7DAC47525BD57FD3C66EA67CFE2CABD9DAEA0C71F36E679FD1FA5" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EditableEngineerTimesheets.lsml" Checksum="BF7F7576AB006ED0009E59CA89BC2A80813902CF1AE38E4D53E9A947D9F39BCD" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EditableIssuesGrid.lsml" Checksum="8B6941DC4670C958FE138B3FADAA728410E9A248C242497B0A8557A473BEB33A" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EditablePrioritiesGrid.lsml" Checksum="CF61D69D0BF4E5090FB19A3F438C3598AEE0DDEB05FCF6CDA167482B4FF47781" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\EditableTimesheetReportsGrid.lsml" Checksum="E2D5FFBC376AD52D3B318EB356A8AA2D08620F22A57FFE3C62E654960A536935" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\Info.lsml" Checksum="D99CDEB1369CEFB598302105D6C15F60D0F2B72CEB7A2068BF1F463692C102BD" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\IssueDetail.lsml" Checksum="578E78A33AD3AEAA4CB2964E9785A4FF62E258767E0D98CD17DA76C34A0A5C5A" />
+    <Document FullPath="C:\Source2015\Source2015Ready\Chapter17\HelpDeskCS\HelpDeskCS\HelpDeskCS.DesktopClient\Screens\IssuesListDetail.lsml" Checksum="24A5C8572A518DCDBA6448BB116B0D3E499B742C07D8E6F742F33CEAEFDBDC0E" />
+  </Documents>
+</ModelDocumentManifest>

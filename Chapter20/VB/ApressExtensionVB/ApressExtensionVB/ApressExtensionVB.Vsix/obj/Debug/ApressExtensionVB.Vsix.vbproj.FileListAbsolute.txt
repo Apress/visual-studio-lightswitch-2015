@@ -1,0 +1,5 @@
+C:\Source2015\Source2015Ready\Chapter19\VB\ApressExtensionVB\ApressExtensionVB\ApressExtensionVB.Vsix\bin\Debug\ApressExtensionVB.vsix
+C:\Source2015\Source2015Ready\Chapter19\VB\ApressExtensionVB\ApressExtensionVB\ApressExtensionVB.Vsix\bin\Debug\extension.vsixmanifest
+C:\Source2015\Source2015Ready\Chapter19\VB\ApressExtensionVB\ApressExtensionVB\ApressExtensionVB.Vsix\obj\Debug\ApressExtensionVB.dll
+C:\Source2015\Source2015Ready\Chapter19\VB\ApressExtensionVB\ApressExtensionVB\ApressExtensionVB.Vsix\obj\Debug\ApressExtensionVB.pdb
+C:\Source2015\Source2015Ready\Chapter19\VB\ApressExtensionVB\ApressExtensionVB\ApressExtensionVB.Vsix\obj\Debug\extension.vsixmanifest

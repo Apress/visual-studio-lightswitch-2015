@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application
+  Name="LightSwitchApplication.HelpDeskCS.DesktopClient"
+  TargetPlatform="RichClient"
+  Version="1.0.0.0"
+  DefaultNavigationItem="!module/NavigationItems[Tasks]"
+  Shell="Microsoft.LightSwitch.RichClient:Standard"
+  Theme="Microsoft.LightSwitch.RichClient:Blue" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <Application.Attributes>
+    <ModuleNamespace
+      Namespace="LightSwitchApplication" />
+    <Partial
+      IsPrimary="True" />
+  </Application.Attributes>
+  <EntityContainerGroup
+    Name="DataWorkspace">
+    <EntityContainerGroupProperty
+      Name="SecurityData"
+      EntityContainer="Microsoft.LightSwitch.Security:SecurityData">
+      <EntityContainerGroupProperty.Attributes>
+        <Generated />
+        <DisplayName
+          Value="Security Data" />
+        <Description
+          Value="Service that provides access to security-related data." />
+      </EntityContainerGroupProperty.Attributes>
+    </EntityContainerGroupProperty>
+    <EntityContainerGroupProperty
+      Name="ApplicationData"
+      EntityContainer="ApplicationData" />
+  </EntityContainerGroup>
+  <GlobalAttributeGroup>
+    <GlobalAttributeGroup.Attributes>
+      <Proxy
+        Target="ServiceInterface:LightSwitchServiceApplicationGroup" />
+    </GlobalAttributeGroup.Attributes>
+  </GlobalAttributeGroup>
+  <Application.Commands>
+    <ApplicationCommand
+      Name="ScreenCommandShowStartup"
+      Target="!module/Methods[ShowStartup]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowEngineersListDetail"
+      Target="!module/Methods[ShowEngineersListDetail]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowIssuesListDetail"
+      Target="!module/Methods[ShowIssuesListDetail]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowIssueStatusListDetail"
+      Target="!module/Methods[ShowIssueStatusListDetail]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowEngineersWithOutstandingIssues"
+      Target="!module/Methods[ShowEngineersWithOutstandingIssues]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowEngineersWithNoIssues"
+      Target="!module/Methods[ShowEngineersWithNoIssues]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowEngineersWithIssues"
+      Target="!module/Methods[ShowEngineersWithIssues]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowEngineerPhoneticSearch"
+      Target="!module/Methods[ShowEngineerPhoneticSearch]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowSearchIssuesByMonthAndYear"
+      Target="!module/Methods[ShowSearchIssuesByMonthAndYear]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowSearchIssuesBySearchTerms"
+      Target="!module/Methods[ShowSearchIssuesBySearchTerms]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowSearchIssuesMatchSome"
+      Target="!module/Methods[ShowSearchIssuesMatchSome]" />
+  </Application.Commands>
+  <Application.NavigationItems>
+    <ApplicationNavigationGroup
+      Name="Tasks"
+      DefaultItem="!module/NavigationItems[Tasks]/Children[Startup]">
+      <ApplicationNavigationGroup.Attributes>
+        <DisplayName
+          Value="Tasks" />
+      </ApplicationNavigationGroup.Attributes>
+      <ApplicationNavigationLink
+        Name="Startup"
+        Command="!module/Commands[ScreenCommandShowStartup]" />
+      <ApplicationNavigationLink
+        Name="EngineersWithOutstandingIssues"
+        Command="!module/Commands[ScreenCommandShowEngineersWithOutstandingIssues]" />
+      <ApplicationNavigationLink
+        Name="EngineersWithNoIssues"
+        Command="!module/Commands[ScreenCommandShowEngineersWithNoIssues]" />
+      <ApplicationNavigationLink
+        Name="EngineersWithIssues"
+        Command="!module/Commands[ScreenCommandShowEngineersWithIssues]" />
+      <ApplicationNavigationLink
+        Name="EngineerPhoneticSearch"
+        Command="!module/Commands[ScreenCommandShowEngineerPhoneticSearch]" />
+      <ApplicationNavigationLink
+        Name="SearchIssuesByMonthAndYear"
+        Command="!module/Commands[ScreenCommandShowSearchIssuesByMonthAndYear]" />
+      <ApplicationNavigationLink
+        Name="SearchIssuesBySearchTerms"
+        Command="!module/Commands[ScreenCommandShowSearchIssuesBySearchTerms]" />
+      <ApplicationNavigationLink
+        Name="SearchIssuesMatchSome"
+        Command="!module/Commands[ScreenCommandShowSearchIssuesMatchSome]" />
+    </ApplicationNavigationGroup>
+    <ApplicationNavigationGroup
+      Name="Administration">
+      <ApplicationNavigationGroup.Attributes>
+        <DisplayName
+          Value="Administration" />
+      </ApplicationNavigationGroup.Attributes>
+      <ApplicationNavigationLink
+        Name="RolesScreen"
+        Command="Microsoft.LightSwitch.Security:!module/Commands[ScreenCommandShowRolesScreen]" />
+      <ApplicationNavigationLink
+        Name="UsersScreen"
+        Command="Microsoft.LightSwitch.Security:!module/Commands[ScreenCommandShowUsersScreen]" />
+    </ApplicationNavigationGroup>
+    <ApplicationNavigationGroup
+      Name="group">
+      <ApplicationNavigationGroup.Attributes>
+        <DisplayName
+          Value="Group" />
+      </ApplicationNavigationGroup.Attributes>
+      <ApplicationNavigationLink
+        Name="link"
+        Command="!module/Commands[ScreenCommandShowEngineersListDetail]" />
+      <ApplicationNavigationLink
+        Name="link1"
+        Command="!module/Commands[ScreenCommandShowIssuesListDetail]" />
+      <ApplicationNavigationLink
+        Name="link2"
+        Command="!module/Commands[ScreenCommandShowIssueStatusListDetail]" />
+    </ApplicationNavigationGroup>
+  </Application.NavigationItems>
+</Application>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\ApplicationData\Engineers.lsml" Checksum="6596B1DC96C9CF60C863B3A3272940D3BD11D0AD8D7C5FF785B84BBD09C11F0F" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\ApplicationData\Issues.lsml" Checksum="EA82F548D079CE21E937B2B5B93823AEFDDF85B38393523A31BB1B3DC6AC5FBB" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\Client.lsml" Checksum="AEDBF3E1F6D114FA50B34F20FBCFC1A7E9ECEF7F6092E03381BC99D50DB3FBF9" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Properties\Proxies.lsml" Checksum="B3E0B1E24E69EB42273470437A189048B8D5A28B74D06D0FC85A8B0A44FA2240" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Engineers\AddEditEngineer.lsml" Checksum="BAC666437BBF22285EA345CB57D859461CB03B08594D4DBB95758435F1903527" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Engineers\BrowseEngineers.lsml" Checksum="CD83FA15C20061D95489FAF1EC2A8DDD1A39BBD7ABFF01067847F16A04B46F2B" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Engineers\ViewEngineer.lsml" Checksum="440C42131E65AF3D86FB0BB1B1CFE5A01DDA90F96808205CA37909D7FDBDCF6E" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Info.lsml" Checksum="014BFF20B2517BC9E599196A78AF1D2D4123FC83AD02EFD913D3E842233A690F" />
+    <Document FullPath="C:\Users\tim\Documents\B63Items\Source2015Ready\Chapter6\HelpDeskVB\HelpDeskVB\HelpDeskVB.HTMLClient\Screens\Setup.lsml" Checksum="B51FD087140073B7B2AA4C8013F907076EEAC29BEF47B5A94C8FC4C7EEE2FE6C" />
+  </Documents>
+</ModelDocumentManifest>
